@@ -16,13 +16,41 @@ struct CircleView: View {
     //MARK: Computed properties
     var body: some View {
         VStack {
-            Text("\(currentCircle.radius)")
-                .font(.largeTitle)
-            
-            Slider(value: $currentCircle.radius, in: 0...100)
-            
-            Text("\(currentCircle.diameter)")
-                .font(.largeTitle)
+            Image("circle")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 250, height: 250)
+            HStack {
+                Text("0")
+                Slider(value: $currentCircle.radius, in: 0...100)
+                Text("100")
+            }
+            HStack {
+                VStack (alignment: .leading) {
+                    Text("Radius")
+                        .bold()
+                    Text("\(currentCircle.radius)")
+                    Spacer()
+                        .frame(height: 30)
+                    Text("Diameter")
+                        .bold()
+                    Text("\(currentCircle.diameter)")
+                    Spacer()
+                        .frame(height: 30)
+                    Text("Perimeter")
+                        .bold()
+                    Text("\(currentCircle.perimeter)")
+                    Spacer()
+                        .frame(height: 30)
+                    Text("Area")
+                        .bold()
+                    Text("(square units)")
+                        .font(.system(size: 10))
+                    Text("\(currentCircle.area)")
+                }
+                Spacer()
+            }
+            .padding()
         }
         .padding()
     }

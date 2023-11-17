@@ -12,6 +12,8 @@
 		1A5EA9CF2B0693A200DCD778 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5EA9CE2B0693A200DCD778 /* Preview Assets.xcassets */; };
 		1A5EA9D82B0695DA00DCD778 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9D72B0695DA00DCD778 /* CircleView.swift */; };
 		1A5EA9DA2B06992400DCD778 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9D92B06992400DCD778 /* Circle.swift */; };
+		1A5EA9DC2B069BCD00DCD778 /* Parallelogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9DB2B069BCD00DCD778 /* Parallelogram.swift */; };
+		1A5EA9DE2B069BFB00DCD778 /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9DD2B069BFB00DCD778 /* ParallelogramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1A5EA9CE2B0693A200DCD778 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A5EA9D72B0695DA00DCD778 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		1A5EA9D92B06992400DCD778 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		1A5EA9DB2B069BCD00DCD778 /* Parallelogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallelogram.swift; sourceTree = "<group>"; };
+		1A5EA9DD2B069BFB00DCD778 /* ParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +57,9 @@
 		1A5EA9C62B0693A000DCD778 /* GeometryHelper */ = {
 			isa = PBXGroup;
 			children = (
+				1A5EA9C72B0693A000DCD778 /* GeometryHelperApp.swift */,
 				1A5EA9D62B0695AE00DCD778 /* Model */,
 				1A5EA9D52B06957D00DCD778 /* Views */,
-				1A5EA9C72B0693A000DCD778 /* GeometryHelperApp.swift */,
 				1A5EA9CB2B0693A200DCD778 /* Assets.xcassets */,
 				1A5EA9CD2B0693A200DCD778 /* Preview Content */,
 			);
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1A5EA9D72B0695DA00DCD778 /* CircleView.swift */,
+				1A5EA9DD2B069BFB00DCD778 /* ParallelogramView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1A5EA9D92B06992400DCD778 /* Circle.swift */,
+				1A5EA9DB2B069BCD00DCD778 /* Parallelogram.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 			files = (
 				1A5EA9D82B0695DA00DCD778 /* CircleView.swift in Sources */,
 				1A5EA9C82B0693A000DCD778 /* GeometryHelperApp.swift in Sources */,
+				1A5EA9DC2B069BCD00DCD778 /* Parallelogram.swift in Sources */,
+				1A5EA9DE2B069BFB00DCD778 /* ParallelogramView.swift in Sources */,
 				1A5EA9DA2B06992400DCD778 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
