@@ -11,7 +11,24 @@ import SwiftUI
 struct GeometryHelperApp: App {
     var body: some Scene {
         WindowGroup {
-            CircleView()
+            TabView(selection: Binding.constant(1)) {
+                
+                CircleView()
+                    .tabItem {
+                        Image(systemName: "plus")
+                        Text("Plus")
+                    }
+                    .tag(1)
+                
+                ParallelogramView()
+                     .tabItem {
+                        Image(systemName: "minus")
+                        Text("Minus")
+                    }
+                     .tag(2)
+            }
+            .accentColor(.blue)
+            .preferredColorScheme(.light)
         }
     }
 }
