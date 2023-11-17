@@ -38,33 +38,38 @@ struct ParallelogramView: View {
             }
             HStack {
                 VStack (alignment: .leading) {
+                    
                     Text("Base")
                         .bold()
-                    Text("\(currentParallelogram.base)")
+                    Text("\(currentParallelogram.base.roundedToTenth)")
                     Spacer()
                         .frame(height: 30)
+                    
                     Text("Height")
                         .bold()
-                    Text("\(currentParallelogram.height)")
+                    Text("\(currentParallelogram.height.roundedToTenth)")
                     Spacer()
                         .frame(height: 30)
-                    Text("Side")
-                        .bold()
-                    Text("\(currentParallelogram.side)")
-                    Spacer()
-                        .frame(height: 30)
+                    
                     Text("Side")
                         .bold()
                     Text("(c)")
                         .font(.system(size: 10))
-                    Text("\(currentParallelogram.perimeterP)")
+                    Text("\(currentParallelogram.side.roundedToTenth)")
                     Spacer()
                         .frame(height: 30)
+                    
+                    Text("Perimeter")
+                        .bold()
+                    Text("\(currentParallelogram.perimeterP.roundedToTenth)")
+                    Spacer()
+                        .frame(height: 30)
+                    
                     Text("Area")
                         .bold()
                     Text("(square units)")
                         .font(.system(size: 10))
-                    Text("\(currentParallelogram.areaP)")
+                    Text("\(currentParallelogram.areaP.roundedToTenth)")
                 }
                 Spacer()
             }

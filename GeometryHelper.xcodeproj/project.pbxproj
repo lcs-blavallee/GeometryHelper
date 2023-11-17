@@ -14,6 +14,7 @@
 		1A5EA9DA2B06992400DCD778 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9D92B06992400DCD778 /* Circle.swift */; };
 		1A5EA9DC2B069BCD00DCD778 /* Parallelogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9DB2B069BCD00DCD778 /* Parallelogram.swift */; };
 		1A5EA9DE2B069BFB00DCD778 /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9DD2B069BFB00DCD778 /* ParallelogramView.swift */; };
+		1A5EA9E02B07CEBF00DCD778 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EA9DF2B07CEBF00DCD778 /* ExtensionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1A5EA9D92B06992400DCD778 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		1A5EA9DB2B069BCD00DCD778 /* Parallelogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallelogram.swift; sourceTree = "<group>"; };
 		1A5EA9DD2B069BFB00DCD778 /* ParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
+		1A5EA9DF2B07CEBF00DCD778 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1A5EA9D52B06957D00DCD778 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1A5EA9DF2B07CEBF00DCD778 /* ExtensionView.swift */,
 				1A5EA9D72B0695DA00DCD778 /* CircleView.swift */,
 				1A5EA9DD2B069BFB00DCD778 /* ParallelogramView.swift */,
 			);
@@ -166,6 +169,7 @@
 				1A5EA9C82B0693A000DCD778 /* GeometryHelperApp.swift in Sources */,
 				1A5EA9DC2B069BCD00DCD778 /* Parallelogram.swift in Sources */,
 				1A5EA9DE2B069BFB00DCD778 /* ParallelogramView.swift in Sources */,
+				1A5EA9E02B07CEBF00DCD778 /* ExtensionView.swift in Sources */,
 				1A5EA9DA2B06992400DCD778 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
