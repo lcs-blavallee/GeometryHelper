@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct parallelogram {
+struct Parallelogram {
     
     // MARK: Stored properties
     var base: Double
@@ -16,10 +16,10 @@ struct parallelogram {
     
     // MARK: Computed properties
     
-    var perimeterOfParallelogram: Double {
+    var perimeterP: Double {
         return 2 * base + 2 * side
     }
-    var areaOfParallelogram: Double {
+    var areaP: Double {
         return base * height
     }
 }

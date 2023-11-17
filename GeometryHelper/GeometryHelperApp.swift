@@ -15,15 +15,15 @@ struct GeometryHelperApp: App {
                 
                 CircleView()
                     .tabItem {
-                        Image(systemName: "plus")
-                        Text("Plus")
+                        Image(systemName: "circle")
+                        Text("Circle")
                     }
                     .tag(1)
                 
                 ParallelogramView()
                      .tabItem {
-                        Image(systemName: "minus")
-                        Text("Minus")
+                        Image(systemName: "rectangle")
+                        Text("Parallelogram")
                     }
                      .tag(2)
             }
